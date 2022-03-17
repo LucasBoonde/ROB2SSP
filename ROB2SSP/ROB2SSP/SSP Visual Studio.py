@@ -12,6 +12,10 @@ class Encoder:
         pass
     def stepToSpeed(self, stepsAmount):
         stepsAmount omregnes til speed her
+    def stepsToLocation():
+        pass
+    def locationToSteps():
+        pass
         
 class Pressure_Sensor:
     def maxRangeReached():
@@ -21,10 +25,6 @@ class Pressure_Sensor:
         pass
     def detectPressure():
         pass
+
     
-class Location:
-    def stepsToLocation():
-        pass
-    def locationToSteps():
-        pass
     
