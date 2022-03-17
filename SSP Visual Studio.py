@@ -8,10 +8,13 @@ class Motor:
     
     def runUntilValueReached(self, heightValue):
         
-        while currentHeight < heightValue:
-            motorRunStatus = True 
+
+        if Pressure_Sensor.getPressureValu.objectDetected:
+
+            while currentHeight < heightValue:
+                motorRunStatus = True 
             
-        motorRunStatus = False
+            motorRunStatus = False
     
     def setMotorSpeed(self, speed):
         
@@ -50,9 +53,9 @@ class Pressure_Sensor:
         
     
     def detectPressure():
-        getPressureValue()
+        getValue():
         
-        if pressureValue != pressureValueOld
+        if pressureValue > 0:
             objectedDetected = True
 
     
