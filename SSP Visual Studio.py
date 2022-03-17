@@ -6,10 +6,13 @@ currentHeight =?
 
 class Motor:
     
+    def __init__ (self,motorName,sensorName):
+
+        pass
+
     def runUntilValueReached(self, heightValue):
         
-
-        if Pressure_Sensor.getPressureValu.objectDetected:
+        if Pressure_Sensor.detectPressure:
 
             while currentHeight < heightValue:
                 motorRunStatus = True 
@@ -18,17 +21,18 @@ class Motor:
     
     def setMotorSpeed(self, speed):
         
-        motorSpeed = speed
+        Encoder.stepToSpeed = speed
         
         
 class Encoder:
-    def measureSteps(self):
+    def getStepsAmount(self):
         encoder.SensorValue = currentHeight
         
     def stepToSpeed(self, stepsAmount):
     
-        stepsAmount = #noget matematik så steps omregnes til speed her
-        
+        #stepsAmount = noget matematik så steps omregnes til speed her
+        pass
+
     def stepsToLocation(self, stepsAmount):
         
         newHeight = #noget matematik der omregner steps til milimeter hvor stepsAmount indgår
