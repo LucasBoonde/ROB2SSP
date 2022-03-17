@@ -1,18 +1,23 @@
+from socket import herror
+
+
 class Motor:
-    def runUntilValueReached(self, Value):
+    def runUntilValueReached(self, runStatus):
         pass
-    def setMotorSpeed(Speed):
+    def setMotorSpeed(self, speed):
         pass
-    seee meee!!!
+    
 class Encoder:
-    def measureSteps():
+    def measureSteps(self, stepsAmount):
         pass
-    def stepToSpeed():
+    def stepToSpeed(self, stepsAmount):
+        stepsAmount omregnes til speed her
         
 class Pressure_Sensor:
     def maxRangeReached():
         pass
     def valueChange():
+        return runStatus
         pass
     def detectPressure():
         pass
@@ -22,5 +27,4 @@ class Location:
         pass
     def locationToSteps():
         pass
-    
     
