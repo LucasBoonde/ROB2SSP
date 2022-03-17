@@ -3,11 +3,12 @@ class Motor:
         pass
     def setMotorSpeed(Speed):
         pass
-    seee meee!!!
+    #seee meee!!!
 class Encoder:
     def measureSteps():
         pass
     def stepToSpeed():
+        pass
         
 class Pressure_Sensor:
     def maxRangeReached():
