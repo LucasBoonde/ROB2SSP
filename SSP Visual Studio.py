@@ -21,20 +21,20 @@ class Motor:
         motorSpeed = speed
         
         
-class Encoder:
-    def measureSteps(self):
-        encoder.SensorValue = currentHeight
-        
-    def stepToSpeed(self, stepsAmount):
-    
-        stepsAmount = "step amount" #noget matematik så steps omregnes til speed her
-        
-    def stepsToLocation(self, stepsAmount):
-        
-        newHeight = "new height" #noget matematik der omregner steps til milimeter hvor stepsAmount indgår
-        
-        currentHeight = newHeight + currentHeight
-    
+#class Encoder:
+    #def measureSteps(self):
+    #    encoder.SensorValue = currentHeight
+    #    
+    #def stepToSpeed(self, stepsAmount):
+    #
+    #    stepsAmount = "step amount" #noget matematik så steps omregnes til speed her
+    #    
+    #def stepsToLocation(self, stepsAmount):
+    #    
+    #    newHeight = "new height" #noget matematik der omregner steps til milimeter hvor stepsAmount indgår
+    #    
+    #    currentHeight = newHeight + currentHeight
+    #
     #def locationToSteps():
         
         
