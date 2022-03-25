@@ -12,7 +12,7 @@ timestep = int(robot.getBasicTimeStep())
 
 # You should insert a getDevice-like function in order to get the
 # instance of a device of the robot. Something like:
-#  motor = robot.getDevice('motorname')
+  motor = robot.getDevice(LinearMotor)
 #  ds = robot.getDevice('dsname')
 #  ds.enable(timestep)
 
@@ -26,7 +26,7 @@ while robot.step(timestep) != -1:
     # Process sensor data here.
 
     # Enter here functions to send actuator commands, like:
-    #  motor.setPosition(10.0)
-    pass
+    motor.setPosition(10.0)
+
 
 # Enter here exit cleanup code.
