@@ -1,8 +1,8 @@
 from socket import herror
 
-timestep =?
+timestep = 0
 
-currentHeight =?
+currentHeight = 0
 
 class Motor:
     
@@ -27,11 +27,11 @@ class Encoder:
         
     def stepToSpeed(self, stepsAmount):
     
-        stepsAmount = #noget matematik så steps omregnes til speed her
+        stepsAmount = "step amount" #noget matematik så steps omregnes til speed her
         
     def stepsToLocation(self, stepsAmount):
         
-        newHeight = #noget matematik der omregner steps til milimeter hvor stepsAmount indgår
+        newHeight = "new height" #noget matematik der omregner steps til milimeter hvor stepsAmount indgår
         
         currentHeight = newHeight + currentHeight
     
@@ -40,7 +40,7 @@ class Encoder:
         
 class Pressure_Sensor:
     def maxRangeReached(self):
-        if currentHeight = maxHeight:
+        if currentHeight == maxHeight:
             motorRunStatus = False
     def getPressureValue(self):   
         pass
@@ -54,7 +54,6 @@ class Pressure_Sensor:
     
     def detectPressure():
         getValue():
-        
         if pressureValue > 0:
             objectedDetected = True
 
