@@ -8,6 +8,10 @@ currentHeight = 0
 
 class Motor:
     
+    def __init__ (self,motorName,sensorName):
+
+        pass
+
     def runUntilValueReached(self, heightValue):
         
 
@@ -20,7 +24,7 @@ class Motor:
     
     def setMotorSpeed(self, speed):
         
-        motorSpeed = speed
+        Encoder.stepToSpeed = speed
         
         
 #class Encoder:
